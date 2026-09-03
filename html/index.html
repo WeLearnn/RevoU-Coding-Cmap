@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 1 RevoU Coding Html</title>
+    <!-- Tailwind CSS v4 via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style type="text/tailwindcss">
+        @theme {
+            --color-glass-bg: rgba(255, 255, 255, 0.15);
+            --color-glass-border: rgba(255, 255, 255, 0.3);
+        }
+    </style>
+</head>
+<body class="min-h-screen bg-gradient-to-br from-violet-600 via-purple-500 to-pink-500 flex items-center justify-center p-6 font-sans">
+
+    <!-- Floating blobs for depth -->
+    <div class="fixed top-[-100px] left-[-100px] w-96 h-96 rounded-full bg-pink-400 opacity-30 blur-3xl pointer-events-none"></div>
+    <div class="fixed bottom-[-120px] right-[-80px] w-[500px] h-[500px] rounded-full bg-violet-700 opacity-30 blur-3xl pointer-events-none"></div>
+    <div class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-72 h-72 rounded-full bg-fuchsia-400 opacity-20 blur-2xl pointer-events-none"></div>
+
+    <!-- Glass card -->
+    <div class="relative w-full max-w-lg rounded-3xl border border-white/30 bg-white/15 backdrop-blur-xl shadow-2xl shadow-black/20 p-10 text-white">
+
+        <!-- Header badge -->
+        <span class="inline-block mb-4 px-3 py-1 text-xs font-semibold tracking-widest uppercase rounded-full bg-white/20 border border-white/30">
+            RevoU Coding
+        </span>
+
+        <h1 class="text-5xl font-extrabold tracking-tight mb-2 drop-shadow-lg">Belajar</h1>
+        <p class="text-white/80 text-lg mb-6">belajar sama revoU</p>
+
+        <hr class="border-white/20 mb-6">
+
+        <p class="text-white/90 text-base leading-relaxed mb-6">
+            makan sambil <br>
+            <span class="font-semibold text-pink-200">sertifikasi</span>
+        </p>
+
+        <!-- Heading scale showcase -->
+        <div class="mb-6 space-y-1">
+            <h2 class="text-3xl font-bold text-white">Head 2</h2>
+            <h3 class="text-2xl font-semibold text-white/90">Head 3</h3>
+            <h4 class="text-xl font-medium text-white/80">Head 4</h4>
+            <h5 class="text-lg font-medium text-white/70">Head 5</h5>
+            <h6 class="text-base font-medium text-white/60">Head 6</h6>
+        </div>
+
+        <hr class="border-white/20 mb-6">
+
+        <div class="space-y-3">
+            <p class="text-white/90">
+                lagi belajar <b class="text-pink-200 font-bold">HTML</b> bareng <i class="text-violet-200 italic">revoU</i>
+            </p>
+            <p class="text-white/90">
+                makan <sup class="text-xs text-pink-300 font-semibold">makan</sup>
+            </p>
+            <p class="text-white/90">
+                makan <sub class="text-xs text-violet-300 font-semibold">makan</sub>
+            </p>
+
+            <a href="/html/list.html"
+               class="inline-flex items-center gap-2 mt-4 px-6 py-3 rounded-xl bg-white/20 hover:bg-white/30 border border-white/30 text-white font-semibold text-sm transition-all duration-300 hover:scale-105 hover:shadow-lg shadow-black/10">
+                Page baru
+                <svg xmlns="http://www.w3.org/2000/svg" class="w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7"/>
+                </svg>
+            </a>
+        </div>
+    </div>
+
+</body>
+</html>
